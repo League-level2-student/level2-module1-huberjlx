@@ -40,8 +40,10 @@ public class IntroToArrayLists {
 		}
 		System.out.println("-------");
 		//7. Print only the Strings that have the letter 'e' in them.
-			if (strings.contains("e")) {
-			
-		}
+			for (String str : strings) {
+				if (str.contains("e")) {
+					System.out.println(str);
+				}
+			}
 	}
 }
